@@ -12,10 +12,10 @@ NozeDock is a Windows desktop tool for molecular docking and structure visualiza
 
 Windows 10/11 x64 is required. No separate WSL, Python, Vina, or Node installation is needed. Personal research data and account credentials are not included in public downloads.
 
-## Automatic updates
+## Updates
 
-Each new desktop launch checks for signed updates. App-only changes use a smaller update; runtime changes use a full update. If the update check fails or you are offline, the installed version remains available. Reload refreshes the interface without checking for updates. User research data and settings are kept separately from application updates.
+Open **Current version** to check releases and visit the download page. Updates are manual: download the new `NozeDock.exe`, quit NozeDock, and replace the EXE while keeping `NozeDock_data`.
 
-`NozeDock-app.zip`, `NozeDock-runtime.zip`, and `latest.json` are used by the updater. You do not need to download them manually. GitHub's automatically generated Source code archives are not needed to run NozeDock.
+Closing the window exits NozeDock. Unfinished docking or photography prompts for confirmation; completed results remain saved.
 
 This repository hosts public release files and distribution information.
